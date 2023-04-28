@@ -14,8 +14,12 @@ const app = express()
 dotenv.config() 
 
 // Middlewares
-app.use(express.json())
-app.use('/products', products)  // products route
+app.use(express.json());
+app.get('/', (req, res) => {
+    res.status(200).send('<a href="/products">Products List</a>');
+  });
+  
+app.use('/products', products);  // products route
 app.use(notFound)  // not found page middlware
 
 app.listen(PORT, (err) => {
