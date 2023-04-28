@@ -1,6 +1,6 @@
 
 
-# ECOMMERCE-API 🛍
+# ECOMMERCE-API
 
 It is an Ecommerce API, I created as an assignment for Coding Ninjas.
 
@@ -17,27 +17,25 @@ It is an Ecommerce API, I created as an assignment for Coding Ninjas.
 <h2>ENDPOINTS</h2>
 <ul>
 <code>GET</code>
-<li>Type <code>/api/v1/products</code> to get all the products available on the database.</li>
+<li>Type <code>/products</code> to get all the products available on the database.</li>
 </ul>
 
 
 <ul>
 <code>POST</code>
-<li>Type <code>/api/v1/products/create</code> to create a new product in the database.</li>
+<li>Type <code>/products/create</code> to create a new product in the database.</li>
 </ul>
 
 <ul>
 <code>DELETE</code>
-<li>Type <code>/api/v1/products/:id</code> to delete a product from the database.</li>
+<li>Type <code>/products/:id</code> to delete a product from the database.</li>
 </ul>
 
 <ul>
 <code>POST</code>
-<li>Type <code>/api/v1/products/:id/update_quantity/?number=[new_quantity]</code> to update the product quantity in the database.</li>
+<li>Type <code>/products/:id/update_quantity/?number=[new_quantity]</code> to update the product quantity in the database.</li>
 </ul>
 
 <h2></h2>
 <p>It is the very basic version of Rest APIs and I have made this project using Node.js, Express.js, MongoDB, and Mongoose.</p>
-
-<p>Give it a star 💫⭐ if you like this project</p>
 
